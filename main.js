@@ -5,7 +5,7 @@ let opacity = 0.4;
 //Set first image opacity
 imgs[0].style.opacity = opacity;
 
-imgs.forEach(img =>  img.addEventListener('click', imgClick));
+imgs.forEach(img =>  img.addEventListener('click', imgClick))
 
 function imgClick(e){
 
